@@ -3,3 +3,28 @@
     padding: 0px;
     margin: auto;
 }
+
+header nav {
+    background-color: black;
+    margin-top: px;
+    
+}
+
+header nav h1{
+    font-size: 300%;
+    margin-top:px;
+
+}
+
+h1 {
+    margin-top: 5;
+}
+
+#name {
+    color: blue;
+    margin-bottom: px;
+}
+
+img {
+    margin-top: 25px;
+}
