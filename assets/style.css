@@ -58,13 +58,25 @@ img {
     right: 20px;
  }
 
- article {
+  article p {
     color: aliceblue;
     position: absolute;
     top: 190px;
-    left: 450px;   
+    left: 450px;
+    display: block;
+    width: 800px;
+    line-height: 2;
+    font-weight: 700;
+    
+
  }
 
+ h3 {
+    color: aliceblue;
+    position: absolute;
+    left: 30px;
+    font-size: x-large;
+ }
 
  
 
