@@ -74,17 +74,29 @@ img {
     top: 65.2%;
  }
 
+ .Work {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+
+ }
+
  .Work button {
     cursor: pointer;
     display: block;
+    line-height: 15;
+
+ }
+
+ .btn {
+   background-color: grey;
+   border-radius: 12px;
  }
 
  .Prework {
-    background-color: aqua;
     box-shadow: inset;
     border-color: white;
-    padding: 32px 16px;
-    border-radius: 12px;   
+    padding: 32px 16px;   
     position: relative;
     margin-left:7%;
     margin-top: 5%;
@@ -98,31 +110,39 @@ img {
  
  .Refactor {
    position: relative;
-    background-color: blue;
     box-shadow: inset;
     border-color: white;
     padding: 32px 8px;
-    border-radius: 12px;
     margin-left: 7%;
     vertical-align: bottom; 
  }
 
+ .Refactor:hover {
+   background-color: black;
+   color: aliceblue;
+ }
+
  .Future1 {
-    background-color: purple;
     box-shadow: inset;
     border-color: white;
-    border-radius: 12px;
     padding: 32px 36px;
     margin-left: 7%;
+ }
 
-
+ .Future1:hover {
+   background-color: black;
+   color: aliceblue;
  }
 
  .Future2 {
     background-color: gray;
     box-shadow: inset;
     border-color: white;
-    border-radius: 12px;
     padding: 32px 36px;
     margin-left: 7%;
+ }
+
+ .Future2:hover {
+   background-color: black;
+   color: aliceblue;
  }
