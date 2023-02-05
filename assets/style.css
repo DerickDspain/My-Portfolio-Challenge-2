@@ -2,7 +2,6 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;  
-
 }
 
 body{
@@ -19,8 +18,6 @@ body{
 .header h1 {
     display: inline-block;
     color: aliceblue;
-    
-
 }
 
 .header nav {
@@ -67,8 +64,6 @@ img {
     width: 800px;
     line-height: 2;
     font-weight: 700;
-    
-
  }
 
  h3 {
@@ -76,7 +71,58 @@ img {
     position: absolute;
     left: 30px;
     font-size: x-large;
+    top: 65.2%;
  }
 
- 
+ .Work button {
+    cursor: pointer;
+    display: block;
+ }
 
+ .Prework {
+    background-color: aqua;
+    box-shadow: inset;
+    border-color: white;
+    padding: 32px 16px;
+    border-radius: 12px;   
+    position: relative;
+    margin-left:7%;
+    margin-top: 5%;
+    vertical-align: bottom;
+ }
+
+ .Prework:hover {
+    background-color: black;
+    color: aliceblue;
+ }
+ 
+ .Refactor {
+   position: relative;
+    background-color: blue;
+    box-shadow: inset;
+    border-color: white;
+    padding: 32px 8px;
+    border-radius: 12px;
+    margin-left: 7%;
+    vertical-align: bottom; 
+ }
+
+ .Future1 {
+    background-color: purple;
+    box-shadow: inset;
+    border-color: white;
+    border-radius: 12px;
+    padding: 32px 36px;
+    margin-left: 7%;
+
+
+ }
+
+ .Future2 {
+    background-color: gray;
+    box-shadow: inset;
+    border-color: white;
+    border-radius: 12px;
+    padding: 32px 36px;
+    margin-left: 7%;
+ }
