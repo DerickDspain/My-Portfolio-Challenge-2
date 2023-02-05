@@ -43,6 +43,14 @@ a {
     text-decoration: none;
 }
 
+img {
+    height: 400px;
+    width: 400px;
+    margin: 25px;
+    background-position: center;
+}
+
+
 
  
 
