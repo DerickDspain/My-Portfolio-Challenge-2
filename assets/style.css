@@ -27,6 +27,7 @@ body{
     font-family: sans-serif;
     font-size: 25px;
     
+    
 }
 
 .header nav ul {
@@ -172,5 +173,11 @@ margin-left: 50%;
   text-decoration: underline;
   list-style: none;
  }
- 
+  @media screen and (max-width: 992px) {
+  
+  }
+
+  @media screen {
+    
+  }
  
