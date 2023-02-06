@@ -41,12 +41,22 @@ a {
     text-decoration: none;
 }
 
-img {
+.Me {
     height: 400px;
     width: 400px;
     margin: 25px;
     background-position: center;
+    border-radius: 12px;
 }
+
+.Texas {
+height: 400px;
+width: 400px;
+margin: 25px;
+border-radius: 12px;
+margin-left: 50%;
+}
+
  h2 {
     color: aliceblue;
     position: absolute;
@@ -64,6 +74,7 @@ img {
     width: 800px;
     line-height: 2;
     font-weight: 700;
+    text-decoration: underline;
  }
 
  h3 {
@@ -78,7 +89,10 @@ img {
    display: flex;
    flex-direction: column;
    gap: 25px;
-
+   border-style: double;
+   border-color: aliceblue;
+   color: aliceblue;
+   text-align:center;
  }
 
  .Work button {
@@ -89,60 +103,60 @@ img {
  }
 
  .btn {
-   background-color: grey;
    border-radius: 12px;
+   font-family: sans-serif;
+   font-size: 15px;
+   margin-right: 70%;
  }
 
  .Prework {
-    box-shadow: inset;
-    border-color: white;
-    padding: 32px 16px;   
+    box-shadow: inset;   
     position: relative;
     margin-left:7%;
     margin-top: 5%;
     vertical-align: bottom;
+    background-image: url(./debby-hudson-asviIGR3CPE-unsplash.jpg);
+    background-size:cover;
+    
  }
 
  .Prework:hover {
-    background-color: black;
-    color: aliceblue;
+    border-color: aliceblue;
+    animation: pressed;
  }
  
  .Refactor {
    position: relative;
     box-shadow: inset;
-    border-color: white;
-    padding: 32px 8px;
     margin-left: 7%;
-    vertical-align: bottom; 
+    vertical-align: bottom;
+    background-image: url(./kelly-sikkema-4TBOXap8qg4-unsplash.jpg); 
+    background-size: cover;
  }
 
  .Refactor:hover {
-   background-color: black;
-   color: aliceblue;
+   border-color: aliceblue;
  }
 
  .Future1 {
     box-shadow: inset;
-    border-color: white;
-    padding: 32px 36px;
     margin-left: 7%;
+    background-image: url(./gaelle-marcel-9DZY0mO98xU-unsplash.jpg);
+    background-size: cover;
  }
 
  .Future1:hover {
-   background-color: black;
-   color: aliceblue;
+   border-color: aliceblue;
  }
 
  .Future2 {
     background-color: gray;
     box-shadow: inset;
-    border-color: white;
-    padding: 32px 36px;
     margin-left: 7%;
+    background-image: url(./gaelle-marcel-9DZY0mO98xU-unsplash.jpg);
+    background-size: cover;
  }
 
  .Future2:hover {
-   background-color: black;
-   color: aliceblue;
+   border-color: aliceblue;
  }
