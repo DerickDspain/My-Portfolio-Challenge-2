@@ -1,18 +1,19 @@
 * {
 box-sizing: border-box;
 margin: 0;
-padding: 0;  
+padding: 0;
 }
 
 body{
     background-color: black;
     font-family: sans-serif;
+    background-image: url(./elliott-engelmann-DjlKxYFJlTc-unsplash.jpg);
+    background-size: cover
 }
  
 .header {
     padding: 20px;
     font-family: sans-serif;
-    background-color: black;
 }
 
 .header h1 {
@@ -25,6 +26,7 @@ body{
     margin-right: 25px;
     font-family: sans-serif;
     font-size: 25px;
+    
 }
 
 .header nav ul {
@@ -160,3 +162,15 @@ margin-left: 50%;
  .Future2:hover {
    border-color: aliceblue;
  }
+
+ footer {
+  font-family: sans-serif;
+  color: aliceblue;
+  padding: 5%;
+  margin-left: 40%;
+  font-size: x-large;
+  text-decoration: underline;
+  list-style: none;
+ }
+ 
+ 
